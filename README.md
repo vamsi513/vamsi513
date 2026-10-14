@@ -46,7 +46,7 @@ A result is easier to trust when the author shows where it failed. These are min
 | [**Installment Ledger**](https://github.com/vamsi513/installment-ledger) · [load test](https://github.com/vamsi513/ledger-loadtest) | Loan and payments API: integer cents, a double entry ledger enforced by a database trigger, idempotency keys, row locking | 256 tests on real Postgres, including concurrent payments sharing one key. |
 | [**Device Control Demo**](https://github.com/vamsi513/device-control-demo) | MQTT commands to simulated devices with acks, retries, and duplicate handling | 75 tests against a real broker. |
 | [**kvnet**](https://github.com/vamsi513/kvnet) | Single threaded C++17 key value server over TCP, epoll and kqueue | 29 protocol assertions, 13 socket tests, ASan and UBSan builds. |
-| [**Netlog Anomaly**](https://github.com/vamsi513/netlog-anomaly) | SQL and Python pipeline over 4.7 million public log lines, with an Airflow DAG | 114 tests. Idempotent loads, bad lines quarantined. |
+| [**Netlog Anomaly**](https://github.com/vamsi513/netlog-anomaly) | SQL and Python pipeline over 4.7 million public log lines, with an Airflow DAG | 169 tests. Idempotent loads, bad lines quarantined. |
 
 ---
 
