@@ -48,7 +48,7 @@
     <text x="16" y="92" font-size="14" fill="#e2e8f0">replicas under load</text>
     <text x="16" y="128" font-size="13" fill="#94a3b8" class="mono">agentiq</text>
     <text x="16" y="150" font-size="12" fill="#64748b">about 1,371 requests</text>
-    <text x="16" y="168" font-size="12" fill="#64748b">291 tests, run budgets</text>
+    <text x="16" y="168" font-size="12" fill="#64748b">297 tests, run budgets</text>
   </g></g>
   <g transform="translate(990,30)"><g class="tile sans" style="animation-delay:0.60s">
     <rect width="180" height="190" rx="12" fill="#0f172a" stroke="#334155"/>
