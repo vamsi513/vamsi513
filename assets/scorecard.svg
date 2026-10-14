@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Measured results from my projects">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#16224d"/></linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7dd3fc"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <style>
+      .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+      .tile{opacity:0;animation:up .6s ease forwards}
+      @keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="250" rx="18" fill="url(#bg)"/>
+  <g transform="translate(30,30)"><g class="tile sans" style="animation-delay:0.00s">
+    <rect width="180" height="190" rx="12" fill="#0f172a" stroke="#334155"/>
+    <text x="16" y="62" font-size="42" font-weight="800" fill="url(#ink)">0.993</text>
+    <text x="16" y="92" font-size="14" fill="#e2e8f0">precision, 0.986 recall</text>
+    <text x="16" y="128" font-size="13" fill="#94a3b8" class="mono">deal-notes-graph</text>
+    <text x="16" y="150" font-size="12" fill="#64748b">143 facts, 30 notes</text>
+    <text x="16" y="168" font-size="12" fill="#64748b">3 misses published</text>
+  </g></g>
+  <g transform="translate(222,30)"><g class="tile sans" style="animation-delay:0.12s">
+    <rect width="180" height="190" rx="12" fill="#0f172a" stroke="#334155"/>
+    <text x="16" y="62" font-size="42" font-weight="800" fill="url(#ink)">93.3%</text>
+    <text x="16" y="92" font-size="14" fill="#e2e8f0">judge agreement</text>
+    <text x="16" y="128" font-size="13" fill="#94a3b8" class="mono">evalforge</text>
+    <text x="16" y="150" font-size="12" fill="#64748b">kappa 0.859 vs OpenAI</text>
+    <text x="16" y="168" font-size="12" fill="#64748b">60 hand written cases</text>
+  </g></g>
+  <g transform="translate(414,30)"><g class="tile sans" style="animation-delay:0.24s">
+    <rect width="180" height="190" rx="12" fill="#0f172a" stroke="#334155"/>
+    <text x="16" y="62" font-size="42" font-weight="800" fill="url(#ink)">0.98</text>
+    <text x="16" y="92" font-size="14" fill="#e2e8f0">Hit@3, MRR 0.935</text>
+    <text x="16" y="128" font-size="13" fill="#94a3b8" class="mono">rental-faq-voice</text>
+    <text x="16" y="150" font-size="12" fill="#64748b">57 labeled questions</text>
+    <text x="16" y="168" font-size="12" fill="#64748b">33 of 33 behavior cases</text>
+  </g></g>
+  <g transform="translate(606,30)"><g class="tile sans" style="animation-delay:0.36s">
+    <rect width="180" height="190" rx="12" fill="#0f172a" stroke="#334155"/>
+    <text x="16" y="62" font-size="42" font-weight="800" fill="url(#ink)">256</text>
+    <text x="16" y="92" font-size="14" fill="#e2e8f0">tests on real Postgres</text>
+    <text x="16" y="128" font-size="13" fill="#94a3b8" class="mono">installment-ledger</text>
+    <text x="16" y="150" font-size="12" fill="#64748b">double entry by trigger</text>
+    <text x="16" y="168" font-size="12" fill="#64748b">idempotent payments</text>
+  </g></g>
+  <g transform="translate(798,30)"><g class="tile sans" style="animation-delay:0.48s">
+    <rect width="180" height="190" rx="12" fill="#0f172a" stroke="#334155"/>
+    <text x="16" y="62" font-size="42" font-weight="800" fill="url(#ink)">1 to 4</text>
+    <text x="16" y="92" font-size="14" fill="#e2e8f0">replicas under load</text>
+    <text x="16" y="128" font-size="13" fill="#94a3b8" class="mono">agentiq</text>
+    <text x="16" y="150" font-size="12" fill="#64748b">about 1,371 requests</text>
+    <text x="16" y="168" font-size="12" fill="#64748b">291 tests, run budgets</text>
+  </g></g>
+  <g transform="translate(990,30)"><g class="tile sans" style="animation-delay:0.60s">
+    <rect width="180" height="190" rx="12" fill="#0f172a" stroke="#334155"/>
+    <text x="16" y="62" font-size="42" font-weight="800" fill="url(#ink)">78,000</text>
+    <text x="16" y="92" font-size="14" fill="#e2e8f0">LLM inferences</text>
+    <text x="16" y="128" font-size="13" fill="#94a3b8" class="mono">LREC 2026 paper</text>
+    <text x="16" y="150" font-size="12" fill="#64748b">6 models, 7 languages</text>
+    <text x="16" y="168" font-size="12" fill="#64748b">coauthor</text>
+  </g></g>
+</svg>
