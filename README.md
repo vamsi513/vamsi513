@@ -64,12 +64,12 @@ Coauthor of **[Cross Lingual Stability and Bias in Instruction Tuned Language Mo
 
 ## Toolbox
 
-**Languages** Python, TypeScript, JavaScript, SQL, C++
-**LLM systems** LangGraph, LangChain, RAG, FAISS, BM25, cross encoder reranking, tool calling, MCP, LLM judge evaluation
-**Backend** FastAPI, Node.js, GraphQL (Apollo), PostgreSQL, Redis, SQLAlchemy, WebSockets, MQTT
-**Frontend** React, Next.js
-**Infrastructure** Docker, Kubernetes, AWS, Terraform, GitHub Actions, OpenTelemetry, Grafana, pytest
-
+- **Languages:** Python, TypeScript, JavaScript, SQL, C++
+- **LLM systems:** LangGraph, LangChain, RAG, FAISS, BM25, cross encoder reranking, tool calling, MCP, LLM judge evaluation
+- **Backend:** FastAPI, Node.js, GraphQL (Apollo), PostgreSQL, Redis, SQLAlchemy, WebSockets, MQTT
+- **Frontend:** React, Next.js
+- **Infrastructure:** Docker, Kubernetes, AWS, Terraform, GitHub Actions, OpenTelemetry, Grafana, pytest
+  
 ## Say hello
 
 I am looking for AI and software engineering roles where I can build systems end to end and keep measuring them.
